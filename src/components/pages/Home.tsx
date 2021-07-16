@@ -128,14 +128,14 @@ export default function HomePage(): ReactElement {
           <SearchBar size="large" />
         </Container>
 
-        <section className={styles.section}>
+        {/* <section className={styles.section}>
           <h3>Bookmarks</h3>
           <Bookmarks />
-        </section>
+        </section> */}
 
         {queryAndDids && (
           <SectionQueryResult
-            title="Highest Liquidity"
+            title="Datasets:"
             query={queryAndDids[0]}
             queryData={queryAndDids[1]}
           />

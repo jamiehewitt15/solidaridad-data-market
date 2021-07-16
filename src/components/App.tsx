@@ -55,10 +55,10 @@ export default function App({
         {!location.pathname.includes('/asset/did') && <NetworkBanner />}
 
         <Header />
-
+        {/* 
         {(props as PageProps).uri === '/' && (
-          <Alert text={warning.main} state="info" />
-        )}
+          // <Alert text={warning.main} state="info" />
+        )} */}
 
         {isInPurgatory && (
           <Alert

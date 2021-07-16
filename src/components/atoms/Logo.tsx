@@ -8,9 +8,5 @@ export default function Logo({
 }: {
   noWordmark?: boolean
 }): ReactElement {
-  return noWordmark ? (
-    <LogoAsset className={styles.logo} />
-  ) : (
-    <LogoAssetFull className={styles.logo} />
-  )
+  return <LogoAsset className={styles.logo} />
 }

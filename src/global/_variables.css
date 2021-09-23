@@ -12,7 +12,7 @@
   --brand-grey-lighter: #e2e2e2;
   --brand-grey-dimmed: #f7f7f7;
 
-  --brand-gradient: linear-gradient(to right bottom, #555555, #ffcc00);
+  --brand-gradient: linear-gradient(to right bottom, #ffcc00af, #ffcc00);
 
   --brand-alert-green: #5fb359;
   --brand-alert-red: #d80606;
